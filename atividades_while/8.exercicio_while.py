@@ -6,5 +6,3 @@
 # Se a média for a partir de 7, aprovado; 
 # Se a média for entre 5 e 6,9, o aluno está em recuperação; 
 # Caso seja menor que 5, o aluno está reprovado.
-
-
