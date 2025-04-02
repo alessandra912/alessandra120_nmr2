@@ -7,8 +7,6 @@
 #quantidade de iterações (loops).
 
 
-
-
 import os
 
 os.system("cls | clear")
