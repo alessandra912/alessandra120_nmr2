@@ -5,14 +5,14 @@ os.system("cls | clear")
 contador = 0
 continua = "s"
 
-while continua =="s":   
- #comandos a serem repetidos
- print("repetindo...")
- contador += 1
+while continua == "s":   
+    #comandos a serem repetidos
+    print("Repetindo...")
+    contador += 1
  
- continua = input("Tecle 's' se deseja continuar.").strip().lower()
+    continua = input("Tecle 's' se deseja continuar: ").strip().lower()
 
 if contador == 0:
- print("O bloco NÃO foi repetido.")
+    print("O bloco NÃO foi repetido.")
 else:
- print(f"O bloco foi repetido {contador} vezes.")
+    print(f"O bloco foi repetido {contador} vezes.")

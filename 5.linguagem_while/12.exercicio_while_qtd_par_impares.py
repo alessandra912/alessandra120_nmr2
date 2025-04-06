@@ -16,7 +16,6 @@ quantidade_impares = 0
 soma_geral = 0
 
 
-
 while True:
         numero = int(input(f"Digite {contador + 1}º um número: "))
 
