@@ -21,7 +21,6 @@ while True:
 
         if numero == 0:
             break
-
         if numero % 2 == 0:
             quantidades_pares += 1
             soma_pares += numero
@@ -33,7 +32,6 @@ while True:
             
 media_pares = soma_pares / quantidades_pares
 media_geral = soma_geral / contador
-
 
 print(f"\nNumeros pares: {quantidade_impares}")
 print(f"Números impares: {quantidade_impares}")
