@@ -2,6 +2,7 @@ import os
 os.system("cls || clear")
 
 lista_numeros = []
+
 QUANTIDADE_NUMEROS = 6
 
 def pares_impares(lista):
@@ -12,8 +13,7 @@ def pares_impares(lista):
             quantidade_pares += 1
         else:
             quantidade_impares += 1
-        return quantidade_pares, quantidade_impares
-
+    return quantidade_pares, quantidade_impares
 
 print(f"\n==Solicitando Números==")
 for i in range(QUANTIDADE_NUMEROS):

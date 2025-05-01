@@ -9,21 +9,17 @@ def situacao(media):
         resultado = "Recuperação!"
     else:
         resultado = "Reprovado!"
-        return resultado
+    return resultado
 
 lista_notas = []
 
 for i in range(QUANTIDADE_NOTAS):
-    nota = float(input("Digite uma nota: "))
+    nota = int(input(f"Digite a {i+1}º nota: "))
     lista_notas.append(nota)
 
 media = sum(lista_notas) / QUANTIDADE_NOTAS
 
 resultado = situacao(media)
 
-print()
-for nota in lista_notas: 
-    print("Nota:", nota)
-
-print("Média:", media)
-print("Resultado:", resultado)
+print(f"\nMédia:", media)
+print(f"Resultado:", resultado)

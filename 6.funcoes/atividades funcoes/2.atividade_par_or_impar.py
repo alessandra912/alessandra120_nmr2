@@ -3,7 +3,7 @@ import os
 os.system("cls || clear")
 
 def par_ou_impar(numeros):
-    if numero % 2 == 0:
+    if numeros % 2 == 0:
         print("Número par")
     else:
         print("Número ímpar")

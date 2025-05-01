@@ -17,7 +17,7 @@ lista_notas = []
 QUANTIDADE_NOTAS = 3
 
 for i in range(QUANTIDADE_NOTAS):
-    nota = float(input("Digite uma nota: "))
+    nota = int(input("Digite uma nota: "))
     lista_notas.append(nota)
 
 media = calcular_media(lista_notas)

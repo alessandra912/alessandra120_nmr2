@@ -6,7 +6,7 @@ QUANTIDADE_NUMEROS = 5
 
 print(f"\n==Solicitando Números==")
 for i in range(QUANTIDADE_NUMEROS):
-    numeros = float(input(f"Digite um {i+1}º número: "))
+    numeros = int(input(f"Digite um {i+1}º número: "))
     lista_numeros.append(numeros)
 
 #Verificando meior e menor número em uma lista.

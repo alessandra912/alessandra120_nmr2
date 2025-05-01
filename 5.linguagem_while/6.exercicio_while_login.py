@@ -13,7 +13,7 @@ while True:
     login = input("Digite seu login: ")
     senha = input("Digite sua senha: ")
 
-    if login_cadastrado == login  and senha_cadastrada == senha:
+    if login_cadastrado == login and senha_cadastrada == senha:
         print("Bem vindo!.\n")
         break
     else:
