@@ -9,7 +9,6 @@
 
 
 import os
-
 os.system("cls | clear")
 
 
@@ -18,15 +17,15 @@ soma = 0
 
 while True:
     menu = int(input("""
-    =========Menu========
-    codigo  menu \t    valor
-    1- \t   Picanha \t    25,00
-    2- \t   Lasanha \t    20,00
-    3- \t   Strogonoff \t    18,00
-    4- \t   Bife acebolado   15,00
-    5- \t   Pão com ovo\t    5,00  
-    Escolha o prato que deseja:
-    """))
+=========Menu========
+codigo  menu \t    valor
+1- \t   Picanha \t    25,00
+2- \t   Lasanha \t    20,00
+3- \t   Strogonoff \t    18,00
+4- \t   Bife acebolado   15,00
+5- \t   Pão com ovo\t    5,00
+                       
+Escolha o prato que deseja: """))
   
     match menu:
         case 1:
@@ -49,11 +48,10 @@ while True:
             preco = 0
 
     soma += preco
-    continuar = input("""Deseja escolher outro prato? 
-    1- Sim
-    2- Não
-    """).lower()
-    if continuar == "2":
+
+    continuar = input("\nDeseja escolher outro prato? ")
+
+    if continuar == "sim":
         break
 
-print(f"Total a pagar: R${soma}")
+print(f"\nTotal a pagar: R${soma}")

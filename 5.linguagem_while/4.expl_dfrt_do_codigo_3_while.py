@@ -1,7 +1,5 @@
 import os
-
 os.system("cls | clear")
-
 
 while True:
     idade = int(input("Digite sua idade: "))

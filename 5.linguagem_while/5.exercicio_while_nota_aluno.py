@@ -12,7 +12,7 @@ soma = 0
 
 for i in range(QUANTIDADE_NOTAS):
   while True:
-    nota = float(input("digite sua nota: "))
+    nota = float(input("Digite sua nota: "))
     
     if nota < 0 or nota > 10:
      print("A nota deve ser entre 0 e 10.\n")

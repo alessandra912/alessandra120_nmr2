@@ -4,7 +4,6 @@
 # o número de tentativas, o programa deve ser finalizado.
 
 import os
-
 os.system("cls | clear")
 
 login_cadastrado = "eu"

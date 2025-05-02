@@ -12,16 +12,18 @@ Dia = int(input("Digite um número para o dia da semana: "))
 # PROCESSAMENTO
 match Dia:
     case 1:
-        print("domingo")
+        print("Domingo")
     case 2:
-        print("segunda-feira")
+        print("Segunda-feira")
     case 3:
-        print("terça-feira")
+        print("Terça-feira")
     case 4:
-        print("quarta-feira")
+        print("Quarta-feira")
     case 5:
-        print("quinta-feira")
+        print("Quinta-feira")
     case 6:
-        print("sexta-feira")
+        print("Sexta-feira")
     case 7:
-        print("sábado")
+        print("Sábado")
+    case _:
+        print("Número inválido!")

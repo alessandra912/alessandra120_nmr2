@@ -24,5 +24,4 @@ if media >= 7:
 elif media >= 4:
     print("Recuperação!")
 else:
-    media < 4
     print("Reprovado!")

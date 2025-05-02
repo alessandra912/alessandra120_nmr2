@@ -10,26 +10,28 @@ mes = int(input("Digite o número para o mês do ano: "))
 
 match mes:
     case 1:
-        print("janeiro")
+        print("Janeiro")
     case 2:
-        print("fevereiro")
+        print("Fevereiro")
     case 3:
-        print("março")
+        print("Março")
     case 4:
-        print("abril")
+        print("Abril")
     case 5:
-        print("maio")
+        print("Maio")
     case 6:
-        print("junho")
+        print("Junho")
     case 7:
-        print("julho")
+        print("Julho")
     case 8:
-        print("agosto")
+        print("Agosto")
     case 9:
-        print("setembro")
+        print("Setembro")
     case 10:
-        print("outubro")
+        print("Outubro")
     case 11:
-        print("novembro")
+        print("Novembro")
     case 12:
-        print("dezembro")
+        print("Dezembro")
+    case _:
+        print("Número inválido!")

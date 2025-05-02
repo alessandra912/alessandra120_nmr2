@@ -3,7 +3,6 @@
 # até que ambos estejam corretos.
 
 import os
-
 os.system("cls | clear")
 
 login_cadastrado = "eu"
@@ -14,7 +13,7 @@ while True:
     senha = input("Digite sua senha: ")
 
     if login_cadastrado == login and senha_cadastrada == senha:
-        print("Bem vindo!.\n")
+        print("Bem vindo!\n")
         break
     else:
-        print("Acesso negado!")
+        print("Acesso negado!\n")

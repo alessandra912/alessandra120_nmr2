@@ -17,6 +17,6 @@ media = soma / 4
 
 
 print()
-print(f"Média: {media}")
+print(f"Média: {media:.2f}")
 
 print(f"\nFIM DO PROGRAMA")

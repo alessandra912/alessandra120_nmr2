@@ -8,7 +8,6 @@
 # Caso seja menor que 5, o aluno está reprovado.
 
 import os
-
 os.system("cls | clear")
 
 

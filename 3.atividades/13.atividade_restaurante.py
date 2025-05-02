@@ -15,8 +15,7 @@ Código \t Prato \t\t\t Valor
 4 \t Bife acebolado \t R$ 15,00
 5 \t Pão com ovo \t\t R$ 5,00                  
                                                                               
- Digite a opção desejada:                               
-"""))
+Digite a opção desejada: """))
 
 # PROCESSAMENTO
 match opção:

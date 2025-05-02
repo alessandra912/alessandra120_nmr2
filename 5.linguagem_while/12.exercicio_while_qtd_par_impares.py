@@ -6,7 +6,6 @@
 #O número que encerrará a leitura será o número zero.
 
 import os
-
 os.system("cls | clear")
 
 contador = 0

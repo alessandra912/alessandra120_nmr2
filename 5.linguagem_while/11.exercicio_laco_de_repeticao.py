@@ -5,9 +5,7 @@
 
 
 import os
-
 os.system("cls | clear")
-
 
 soma = 0
 contador = 0
@@ -23,6 +21,5 @@ while True:
         soma += valor
         
 media = soma / contador
-
 
 print(f"\nMédia: {media}")

@@ -7,8 +7,8 @@ os.system ("clear")
 # O maior número
 # O menor número
 
-primeiro_numero = float(input("Digite primeiro_número: "))
-segundo_numero = float(input("Digite o segundo_numero: "))
+primeiro_numero = float(input("Digite primeiro número: "))
+segundo_numero = float(input("Digite o segundo numero: "))
 
 menor = min(primeiro_numero, segundo_numero)
 maior = max(primeiro_numero, segundo_numero)

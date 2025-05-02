@@ -1,5 +1,4 @@
 import os
-
 os.system("cls | clear")
 
 idade = int(input("Digite sua idade: "))

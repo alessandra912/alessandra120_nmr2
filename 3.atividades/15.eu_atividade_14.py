@@ -21,14 +21,13 @@ match forma_de_pagamento:
         print(f"Valor do desconto: R$ {desconto}")
         print(f"Total da pagar: R$ {valor_pagar}")
     case 2:
-       quantidade_de_parcelas = int(input("selecione a quantidade de parcelas: "))
-       forma_de_pagamento = int(input("""
-        1 - 2 parcelas
-        2 - 3 parcelas
-        3 - 4 parcelas
-        4 - 5 parcelas
-        5 - 6 parcelas
-        selecione o número de parcelas: """))
+       quantidade_de_parcelas = int(input(
+"""\n1 - 2 parcelas
+2 - 3 parcelas
+3 - 4 parcelas
+4 - 5 parcelas
+5 - 6 parcelas
+selecione a quantidade de parcelas: """))
        if quantidade_de_parcelas >= 1 and quantidade_de_parcelas <= 6:
             valor_da_parcela = valor_do_produto / quantidade_de_parcelas
 

@@ -6,7 +6,7 @@ dia = input("Digite dia da semana: ")
 
 match dia:
     case "segunda":
-        print("Hoje é sengunda-feira.")
+        print("Hoje é segunda-feira.")
     case "terça":
         print("Hoje é terça-feira")
     case "quarta":
@@ -19,7 +19,5 @@ match dia:
         print("Hoje é fim de semana!")
     case _:
         print("Dia inválido.")
-
-print(dia)
 
 print("=== FIM ===")
