@@ -32,7 +32,7 @@ selecione a quantidade de parcelas: """))
             valor_da_parcela = valor_do_produto / quantidade_de_parcelas
 
         # Exibindo resultado.
-            print(f"Valor do produto: R$ {valor_do_produto}")
+            print(f"\nValor do produto: R$ {valor_do_produto}")
             print(f"Forma de pagamento: à prazo")
             print(f"Quantidade de parcelas: {quantidade_de_parcelas}")
             print(f"Total à prazo: R$ {valor_do_produto}")           

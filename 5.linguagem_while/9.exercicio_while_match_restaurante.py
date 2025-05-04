@@ -51,7 +51,7 @@ Escolha o prato que deseja: """))
 
     continuar = input("\nDeseja escolher outro prato? ")
 
-    if continuar == "sim":
+    if continuar == "não":
         break
 
 print(f"\nTotal a pagar: R${soma}")

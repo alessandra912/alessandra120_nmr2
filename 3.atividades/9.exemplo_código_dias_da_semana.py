@@ -1,8 +1,7 @@
-
 import os
 os.system ("clear")
 
-dia = input("Digite dia da semana: ")
+dia = input("Digite um dia da semana: ")
 
 match dia:
     case "segunda":

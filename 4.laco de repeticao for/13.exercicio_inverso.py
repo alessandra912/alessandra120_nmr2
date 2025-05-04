@@ -2,7 +2,6 @@
 # usuário 4 notas e, ao final apresente a média.
 
 import os
-
 os.system ("cls || clear")
 
 print("MEDIA DAS NOTAS")
@@ -14,7 +13,6 @@ for i in range(4):
     soma += notas
 
 media = soma / 4
-
 
 print()
 print(f"Média: {media:.2f}")

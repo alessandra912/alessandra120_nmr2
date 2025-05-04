@@ -1,10 +1,6 @@
-# FAÇA UM ALGORITMO QUE SOLICITE AO USUÁRIO
-#   
-#   
-#   
+import os
+os.system ("clear")
 
-# ENTRADA
-# (PEÇA ALGO AO USUARIO) 
 primeiro_numero = int(input("Digite um número: "))
 operador = input("Digite a operação que dejesa (+ - * /): ")
 segundo_numero = int(input( "Digite um número: "))

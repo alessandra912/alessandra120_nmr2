@@ -1,21 +1,23 @@
-# Escrever um programa de computador que solicite do usuário cinco números inteiros e,
-# ao final, apresente a soma de todos os números lidos.
+# Escrever um algoritmo que mostre os números ímpares entre 1 e 20 
 
 import os
 
 os.system ("cls || clear")
 
-print("SOMANDO NÚMEROS:")
+print("NÚMEROS IMPARES")
+for i in range (1, 21):
+    if i % 2 == 1:
+        print(i)
 
-soma = 0
-for i in range(5):
-    nota = int(float(input(f"Digite um número inteiro: ")))
-    soma = soma + nota
-    # or
-    # soma += nota
+print("FIM DO PROGRAMA")
 
-print()
-print(f"Soma: {soma}")
+# Or 
 
+#import os
+#os.system ("cls || clear")
 
-print(f"\nFIM DO PROGRAMA")
+#print("NÚMEROS PARES")
+#for i in range (1,21):
+    #print(i)
+
+#print("FIM DO PROGRAMA") 

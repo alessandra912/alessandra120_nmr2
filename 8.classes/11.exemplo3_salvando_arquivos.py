@@ -27,13 +27,13 @@ for i in range(QUANTIDADE_PACIENTES):
 
 # Salvando em um arquivo com .txt
 nome_arquivo = "Dados_paciente.txt"
-with open(nome_arquivo, "a") as arquivos_pacientes: # or w
+with open(nome_arquivo, "a") as arquivos_pacientes: # 'w' para acumular arquivos, or 'a' para apagar arquivo a cada novo arquivo acrescentado
     for paciente in lista_de_pacientes:
         arquivos_pacientes.write(f"{paciente.nome}, {paciente.idade}\n")
 
 print("\nDados salvos com sucesso.")
 
 # Exibindo dados do paciente.
-print("\nExibindo os dados do usuário.")
-for paciente in lista_de_pacientes:
-    paciente.exibindo_dados()
+# print("\nExibindo os dados do usuário.")
+# for paciente in lista_de_pacientes:
+    # paciente.exibindo_dados()
