@@ -1,13 +1,13 @@
 const readlineSync = require('readline-sync')
 
-let idade = parseInt(readlineSync.question("Digite sua idade: "))
+let idade = parseInt(readlineSync.question("\nDigite sua idade: "))
 
 if (idade < 16) {
-    console.log('Não podem votar.')
+    console.log('\nNão podem votar.')
 } else if ( idade <= 17)
-    console.log('Voto opcional.') 
+    console.log('\nVoto opcional.') 
     else if (idade > 65) {
-        console.log('Não são obrigados a votar.')
+        console.log('\nNão são obrigados a votar.')
     } else {
-        console.log('Voto obrigatório')
+        console.log('\nVoto obrigatório.')
     }
