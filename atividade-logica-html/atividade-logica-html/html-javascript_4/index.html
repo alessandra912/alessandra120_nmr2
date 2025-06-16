@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solicitando Notas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Adicione as notas:</h1>
+
+    <div class="notas-container">
+      <input type="number" class="nota" placeholder="1ª nota..." min="0" max="10" step="0.1" />
+      <input type="number" class="nota" placeholder="2ª nota..." min="0" max="10" step="0.1" />
+      <input type="number" class="nota" placeholder="3ª nota..." min="0" max="10" step="0.1" />
+      <input type="number" class="nota" placeholder="4ª nota..." min="0" max="10" step="0.1" />
+    </div>
+
+    <h2>Notas digitadas:</h2>
+    <ul id="listaNotas"></ul>
+
+    <h2>Média final:</h2>
+    <p id="mediaFinal">0.0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
